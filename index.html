@@ -1,0 +1,356 @@
+<script>
+function openKota(namakota) {
+ var i;
+ var x = document.getElementsByClassName("kota");
+ for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none";
+ }
+ document.getElementById(namakota).style.display = "block";
+}
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+
+<div class="w3-container w3-black">
+<center>
+<video autoplay muted loop height='250px'>
+	<source src='intro.mp4' type='video/mp4'>
+</video>
+</div>
+
+<div class='w3-bar w3-green w3-card-4'>
+<button class="w3-bar-item w3-button" onclick="openKota('home')">HOME</button>
+<button class="w3-bar-item w3-button" onclick="openKota('mahasiswa')">Profile Mahasiswa</button>
+<button class="w3-bar-item w3-button" onclick="openKota('champion')">Akali</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('skill')">Skill Set</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('build')">Build</button>
+	<div class='w3-dropdown-hover'>
+	<button class="w3-bar-item w3-button" onclick="openKota('Skin')">Skin</button>
+		<div class='w3-dropdown-content w3-bar-block w3-card-4'>
+			<button class="w3-bar-item w3-button w3-green" onclick="openKota('Rare')">Rare</button>
+			<button class="w3-bar-item w3-button w3-green" onclick="openKota('Epic')">Epic</button>
+			<button class="w3-bar-item w3-button w3-green" onclick="openKota('Legend')">Legend</button>
+		</div>
+	</div>
+</div>
+
+<style>
+body {font-family: inherit;
+color: white;}
+</style>
+<div id="home" class="w3-container kota w3-animate-zoom" style=display:none>
+<center> 
+<h1> SELAMAT DATANG DI WEB SAYA
+</div>
+<div id="mahasiswa" class="w3-container kota w3-animate-zoom" style=display:none>
+<body bgcolor='black'>
+<h1> PROFILE MAHASISWA </h1>
+<center><h1>SELAMAT DATANG!!</h1>
+<hr>
+<br>
+</center>
+<h1>
+ BIODATA
+   </h1>
+NAMA   : Ariendiadzs Fika Anjala Saepuddin
+<br> 
+NIM    : 10123407
+<br>
+PRODI  : Teknik Informatika
+<br>
+ALAMAT : Kp.Cipeer Kec.Soreang Kab.Bandung
+
+<h2>
+ DESKRIPSI PERKENALAN
+</h2>
+<p> Halo! saya Ariendiadzs, biasa dipanggil diaz oleh teman teman saya.Saya lahir di bandung 03 Februari 2005. Saya merupakan lulusan dari SMAN 1 SOREANG tahun 2023.
+ Sekarang saya melanjutkan pendidikan saya di Universitas Komputer Indonesia dan memasuki jurusan Teknik Informatika.
+<p> <b>Kenapa Teknik Informatika?</b></p>
+<p> <blockquote>Karena Teknik Informatika merupakan salah satu jurusan yang sangat relevan dengan perkembangan <u>zaman yang serba digital ini.</u> Dan saya juga memiliki cita cita untuk bekerja di perusahaan besar seperti google,meta ataupun perusahaan lainnya yang berhubungan dengan Informatika.</p>
+<p> <cite>
+Wayne Dyer <br>
+Apa yang kita pikirkan menentukan apa yang akan terjadi pada kita. Jadi jika kita ingin mengubah hidup, kita perlu sedikit mengubah pikiran kita.
+</cite>
+</blockquote>
+<br>
+Dalam web ini saya akan membahas salah satu champion yang saya sukai dari game League Of Legend (LOL) Yaitu "AKALI" The Rogue Assasin
+</font>
+</div>
+
+<div id="champion" class="w3-container kota w3-animate-zoom" style=display:none>
+<center>
+	<img src='akali.jpg' class='w3-round-xlarge'
+	style="width:300px;height:300px;">
+<br>
+<br>
+<cite>"jika kau terlihat berbahaya,sebaiknya kau benar benar berbahaya"</cite>
+<br>
+~AKALI 
+</center>
+<br>
+<p> Ionia sejak dahulu adalah wilayah yang memiliki sihir alami, masyarakatnya yang cerah dan arwah-arwah
+ kuat hidup harmonis… tapi terkadang kedamaian itu tidak diterima dengan mudah. Terkadang harus selalu diawasi.
+</p>
+<p>Kinkou adalah penjaga keseimbangan suci Ionia. Pendeta ordo yang loyal hidup di alam sihir dan nyata,
+ mereka mendamaikan konflik antara mereka, jika dibutuhkan, mereka turut campur dengan kekuatan. 
+ Akali terlahir di antara pasukan mereka, putri dari Mayym Jhomen Tethi, sang Fist of Shadow yang terkenal. 
+ Mayym dan rekannya Tahno membesarkan putrinya di dalam Kinkou Order, di bawah pengawasan pemimpin Great Master 
+ Kusho, the Eye of Twilight
+</p>
+<p> Setiap kali orang tuanya dipanggil untuk pergi, anggota ordo yang lain bertindak sebagai keluarga angkat
+ Akali. Kennen, the Heart of the Tempest, menghabiskan banyak waktu dengan gadis muda itu, dia mengajarinya 
+ teknik Shuriken, dan mengutamakan kecepatan dan kegesitan dibandingkan kekuatan. Akali adalah anak yang pandai,
+ dan dia menyerap semua ilmu itu bagaikan spons. Bagi semua orang terlihat jelas dia akan mengikuti jalan hidup 
+ orang tuanya—bersama putra Great Master sekaligus penerusnya, Shen, dia akan memimpin generasi baru yang akan 
+ mendedikasikan hidupnya demi kesimbangan Ionia.
+</p>
+<p>
+Baca kisah selengkapnya di :
+<a href='https://universe.leagueoflegends.com/id_ID/story/champion/akali/'> Lore Akali</a>
+</div>
+
+<div id="skill" class="w3-container kota w3-animate-zoom" style=display:none>
+	<h1> ABILITIES </h1>
+	<hr>
+	</P>
+	<div class='w3-panel w3-card-4 w3-highway-green'>
+		<font size=4 color=chartreuse> 
+		ASSASINS MARK</font>
+		<font size=2 color=chartreuse>
+		EFFECT RADIUS : 500</font>
+	<hr>
+	<table>
+	<td><img src='passive.jpg' class='w3-round-xlarge'
+	style='width:80px;height:80px;'>
+	<td><p>INNATE: Saat Akali memberikan damage pada champion musuh dengan sebuah kemampuan,dia menciptakan cincin di sekeliling mereka selama 4 detik, menyegarkan kemampuan damage berikutnya melawan champion. Selama 2 detik, dia memperoleh <font color=khaki>30/40/50/60% (berdasarkan level) Kecepatan gerakan bonus </font> sambil menjauh dari pusat ring. Hanya satu dering yang dapat aktif dalam satu waktu.
+			Saat Akali keluar dari ring, selama 2 detik, dia mendapatkan kembali kecepatan gerakan bonus saat menghadapi champion musuh di dekatnya dan diperkuat dengan Swinging Kama selama 4 detik, yang selama itu dia tidak dapat membuat cincin lagi.
+			SWINGING KAMA: Serangan dasar Akali berikutnya diperkuat dengan menggandakan jangkauannya dan menimbulkan <font color=blue>35 − 182 (berdasarkan level) (+60% bonus AD) </font> <font color=magenta>(+55% AP) bonus kerusakan sihir.</font>
+			
+	</table>
+	</div>
+	</P>
+	
+	<div class='w3-panel w3-card-4 w3-highway-green'>
+		<font size=4 color=chartreuse> 
+		Five Point Strike</font>
+		<font size=2 color=chartreuse>
+		Cooldown : 1.5 
+		Cost : 110/100/90/80/70 ENERGY</font>
+		<hr>
+		<table>
+		<td><img src='skill1.jpg' class='w3-round-xlarge'
+		style='width:80px;height:80px;'>
+		<td><p>AKTIF: Akali melepaskan kunai berbentuk kerucut ke arah target, menimbulkan <font color=blue>kerusakan sihir</font>pada musuh yang terkena. Target pada jangkauan maksimum juga <font color=khaki>diperlambat</font>sebesar 50% selama 0,5 detik.
+		<td><font color=chartreuse> MAGIC DAMAGE :</font> 45/70/95/120/145<font color=orange>(+65% AD)</font><font color=magenta>(+60%AP)</font>
+		</table>
+		</div>
+		
+		
+	<div class='w3-panel w3-card-4 w3-highway-green'>
+		<font size=4 color=chartreuse> 
+		Twilight Shroud</font>
+		<font size=2 color=chartreuse>
+		Cooldown : 20 
+		Effect Radius : 350/1175</font>
+		<hr>
+		<table>
+		<td><img src='skill2.jpg' class='w3-round-xlarge'
+		style='width:80px;height:80px;'>
+		<td> AKTIF: Akali memulihkan <font color=yellow>100 energi</font> selama 0,4 detik dan mendapatkan bonus kecepatan gerakan  yang berkurang selama 2 detik. Dia juga meledakkan bom asap pada jarak tertentu ke arah target, menciptakan selubung melingkar yang mengembang selama 5 detik berikutnya menjadi sebuah cincin. Selubungnya tidak menembus medan, dan akan meluas ke arah champion musuh di dekatnya. Saat kafannya aktif, <font color=yellow>energi maksimum</font> Akali meningkat sebesar 100.
+		<td><font color=chartreuse> BONUS MOVEMENT SPEED :</font>
+		<br> 30/35/40/45/50%
+		<br><font color=chartreuse> SHROUD DURATION</font>
+		<br>5/5.5/6/6.5/7 s
+		</table>
+		</div>
+		
+		<div class='w3-panel w3-card-4 w3-highway-green'>
+		<font size=4 color=chartreuse> 
+		Shuriken Flip</font>
+		<font size=2 color=chartreuse>
+		Cooldown : 16/14.5/13 
+		Cost : 30 energy </font>
+		<hr>
+		<table>
+		<td><img src='skill3a.jpg' class='w3-round-xlarge'
+		style='width:80px;height:80px;'>
+		<td>AKTIF: Akali Dash membalik ke belakang dan, setelah waktu cast, melempar shuriken ke arah target yang memberikan <font color=blue> magic damage</font> pada musuh pertama yang terkena.
+		<td><font color=chartreuse>MAGIC DAMAGE :</font>
+		<br> 30/56.82.108.135<font color=orange>(+25.5%AD)</font><font color=magenta>(+36%AP)</font>
+		<tr><td><img src='skill3b.jpg' class='w3-round-xlarge'
+		style='width:80px;height:80px;'>
+		<td>AKTIFKAN ULANG: Akali Dash berlari menuju target yang ditandai atau bagian asap. Terhadap musuh dia memberikan <font color=blue>kerusakan sihir</font> pada saat kedatangan.
+		<td><font color=chartreuse>MAGIC DAMAGE :</font>
+		<br>70/131/192/253/315<font color=orange>(+59%AD)</font><font color=magenta>(+84%AP)</font>
+		</table>
+		</div>
+		
+
+		<div class='w3-panel w3-card-4 w3-highway-green'>
+		<font size=4 color=chartreuse>
+		<table>
+		Perfect Execution</font>
+		<font size=2 color=chartreuse>
+		Cooldown : 100/80/60
+		Speed : 1500/3000</font>
+		<hr>
+		<td><img src='ulta.jpg' class='w3-round-xlarge'
+		style='width:80px;height:80px;'>
+		<td>AKTIF: Akali Dash melakukan dash sebanyak 750 unit ke arah musuh yang menjadi target Champion, memberikan <font color=blue>magic damage</font> kepada musuh yang dilewatinya. Jika ini mengenai musuh, dia membalikkan mereka untuk terus berlari hingga jarak normal tetapi setidaknya 150 unit lagi.
+		<td><td><font color=chartreuse>MAGIC DAMAGE :</font>
+		<br>80/220/360<font color=orange>(+50% bonus AD)</font><font color=magenta>(+30%AP)</font>
+		<tr><td><img src='ultb.jpg' class='w3-round-xlarge'
+		style='width:80px;height:80px;'>
+		<td>AKTIFKAN ULANG: Akali Dash berlari 800 unit ke arah target, menimbulkan <font color=blue>kerusakan sihir</font> pada musuh yang dilewatinya, meningkat sebesar <font color=green>0% − 200% (berdasarkan kesehatan target yang hilang).</font>
+		<td><td><font color=chartreuse> MINIMUM MAGIC DAMAGE :</font>
+		<br> 60/130/200<font color=magenta>(+30%AP)</font>
+		</table>
+		</div>
+</div>
+
+<div id="build" class="w3-container kota w3-animate-zoom" style=display:none>
+<h1> BUILD RECOMENDATION <h1>
+<hr>
+<div class='w3-panel w3-card-4 w3-highway-green'>
+		<font size=4 color=chartreuse> 
+<table>
+
+<tr><td>STARTING ITEM
+<tr><td><img src='tome.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+<tr><td>CORE ITEM
+<tr><td><img src='orb.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+	<img src='riftmaker.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+	<img src='rabadon.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+<tr><td>BOOTS
+<tr><td><img src='boots.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+	>>>>>
+	<img src='stasis.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+<tr><td> FINAL BUILD 
+<tr><td><img src='orb.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+	<img src='riftmaker.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+	<img src='rabadon.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+	<img src='crown.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+	<img src='soul.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+	<img src='boots.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+	>>>>>
+	<img src='stasis.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+</table>
+</div>
+<hr>
+<h1> SPELL & RUNE</h1>
+<div class='w3-panel w3-card-4 w3-highway-green'>
+		<font size=4 color=chartreuse> 
+<table>
+<tr><td> SPELL
+<tr><td><img src='flash.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+	<img src='ignite.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+
+<tr><td> RUNES
+<tr><td><img src='concueror1.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+	<img src='storm.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+	<img src='coup.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+	<img src='legend.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+	<img src='bone.jpg' class='w3-circle'
+	style="width:80px;height:80px;">
+	
+
+
+</table>
+</div>
+</div>
+
+<div id="Rare" class="w3-container kota w3-animate-zoom" style=display:none>
+<center> 
+<font color=white><h1> Silverfang Akali </h1>
+<br>
+<img src='silverfang.jpg' class='w3-round-xlarge'
+	style="width:300px;height:300px;">
+<img src='silverfang1.jpg' class='w3-round-xlarge'
+	style="width:300px;height:300px;">
+<br>
+<br> NAME : Silverfang Akali
+<br> RARITY : Rare
+<br> PRICE :725 Wild Cores
+<br> HOW TO GET : In Store
+</font>
+</div>
+
+<div id="Epic" class="w3-container kota w3-animate-zoom" style=display:none>
+<center> 
+<font color=white><h1> KDA AKALI</h1>
+<br>
+<img src='kda.jpg' class='w3-round-xlarge'
+	style="width:300px;height:300px;">
+<img src='kda1.jpg' class='w3-round-xlarge'
+	style="width:300px;height:300px;">
+<br>
+<br> NAME : KDA AKALI
+<br> RARITY : Epic
+<br> PRICE :995 Wild Cores
+<br> HOW TO GET : In Store
+
+<br> <img src='headhunter.jpg' class='w3-round-xlarge'
+	style="width:300px;height:300px;">
+<img src='headhunter1.jpg' class='w3-round-xlarge'
+	style="width:300px;height:300px;">
+<br>
+<br> NAME : Head Hunter Akali
+<br> RARITY : Epic
+<br> PRICE :995 Wild Cores
+<br> HOW TO GET : In Store
+
+<br> <img src='project.jpg' class='w3-round-xlarge'
+	style="width:300px;height:300px;">
+<img src='project1.jpg' class='w3-round-xlarge'
+	style="width:300px;height:300px;">
+<br>
+<br> NAME : Head Hunter Akali
+<br> RARITY : Epic
+<br> PRICE :995 Wild Cores
+<br> HOW TO GET : In Store
+</font>
+</div>
+
+<div id="Legend" class="w3-container kota w3-animate-zoom" style=display:none>
+<center> 
+<font color=white><h1>Crystal Rose Akali</h1>
+<br>
+<img src='crystal.jpg' class='w3-round-xlarge'
+	style="width:720px;height:360px;">
+<br><img src='rose.jpg' class='w3-round-xlarge'
+	style="width:300px;height:300px;">
+<br>
+<br> NAME : Crystal Rose Akali
+<br> RARITY : Legendary
+<br> PRICE :-
+<br> HOW TO GET : Didapatkan dari membuka crystal rose chest di event dream
+</font>
+</div>
+
+
+
+
+
+
+</div>
